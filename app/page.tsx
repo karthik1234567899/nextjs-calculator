@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <main className="h-screen bg-gradient-to-br from-[#591E5E] to-[#C3C07C] flex items-center justify-center">
       <div className="flex flex-col bg-gradient-to-br from-[#24252F] to-[#1E2A5E] w-max h-max rounded-3xl items-center p-10">
-        <div className="w-72 h-24 bg-[#E1D7B7] rounded-2xl text-black p-6 text-3xl flex items-end justify-end">
+        <div className="sm:w-screen w-52 max-w-72 h-24 bg-[#E1D7B7] rounded-2xl text-black p-6 text-3xl flex items-end justify-end">
           {equation}
         </div>
         <div className="grid grid-flow-row grid-cols-4 gap-3 w-full justify-items-center items-center mt-7">
